@@ -104,35 +104,9 @@ func arr2tree(a []int, i int) (root *bitreeNode) {
 }
 
 func main() {
-	/* t := &bitree{nil}
-	t.root = &bitreeNode{nil, nil, 78}
-	//inizio sotto alberso sx
-	t.root.left = newNode(54)
-	t.root.left.right = newNode(90)
-	t.root.left.right.left = newNode(19)
-	t.root.left.right.right = newNode(95)
-	//inizio sotto albero dx
-	t.root.right = newNode(21)
-	t.root.right.left = newNode(16)
-	t.root.right.right = newNode(19)
-	t.root.right.left.left = newNode(5)
-	t.root.right.right.left = newNode(56)
-	t.root.right.right.right = newNode(43) */
-
-	/* t2 := &bitree{nil}
-	t2.root = &bitreeNode{nil, nil, 10}
-	t2.root.left = newNode(5)
-	t2.root.left.left = newNode(3)
-	t2.root.left.right = newNode(2)
-	t2.root.right = newNode(6)
-	t2.root.right.left = newNode(21) */
-
 	//slice di un altro albero
 	a := []int{69, 89, 28, 39, 66, 44, 12, 2, 71}
 	albero := &bitree{arr2tree(a, 0)}
 
 	printTree(albero)
-	//trovaPadre(albero.root, 89, -1)
-	//stampaAlberoASommario(t.root, 0)
-	//stampaAlbero(t.root)
 }
