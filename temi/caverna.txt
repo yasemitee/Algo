@@ -1,0 +1,5 @@
+1) 
+a- arrivare alla posizione "uscita" attraversando le posizioni della grotta con valore minimo seguendo le regole m1 e m2
+b- ogni posizione è un nodo che ha come valore il rischio di muffa, con le regole m1 gli adiacenti di un nodo sono le posizioni a destra, sinistra, in basso di un nodo, per m2 gli adiacenti sono i nodi in basso e a destra rispetto al nodo
+c- possiamo sfruttare la lista di adiacenza per capire in quale direzione muoverci, muovendoci sul nodo che ha il rischio minore fino a quando non arriviamo all'uscita
+d- con un grafo con una lista di nodi e una lista di adiacenza
